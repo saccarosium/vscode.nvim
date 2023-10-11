@@ -541,6 +541,8 @@ theme.set_highlights = function(opts)
     if isDark then
         hl(0, 'NvimTreeFolderIcon', { fg = c.vscBlue, bg = 'NONE' })
         hl(0, 'NvimTreeIndentMarker', { fg = c.vscLineNumber, bg = 'NONE' })
+        hl(0, 'NvimTreeFolderName', { fg = c.vscBlue, bg = 'NONE' })
+        hl(0, 'NvimTreeOpenedFolderName', { fg = c.vscBlue, bg = 'NONE' })
 
         hl(0, 'LspFloatWinNormal', { fg = c.vscFront, bg = 'NONE' })
         hl(0, 'LspFloatWinBorder', { fg = c.vscLineNumber, bg = 'NONE' })
